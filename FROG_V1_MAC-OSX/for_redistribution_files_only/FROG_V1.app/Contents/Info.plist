@@ -9,15 +9,15 @@
 	<key>CFBundleIconFile</key>
 	<string>membrane.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>ROTAT_V1</string>
+	<string>FROG_V1</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ROTAT_V1</string>
+	<string>FROG_V1</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
-	<string>ROTAT_V1</string>
+	<string>FROG_V1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CFBundleVersionString</key>

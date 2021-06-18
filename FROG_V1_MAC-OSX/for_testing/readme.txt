@@ -33,11 +33,11 @@ NOTE: You will need administrator rights to run MCRInstaller.
 
 Files to package for Standalone 
 ================================
--run_ROTAT_V1.sh (shell script for temporarily setting environment variables and 
- executing the application)
+-run_FROG_V1.sh (shell script for temporarily setting environment variables and executing 
+ the application)
    -to run the shell script, type
    
-       ./run_ROTAT_V1.sh <mcr_directory> <argument_list>
+       ./run_FROG_V1.sh <mcr_directory> <argument_list>
        
     at Linux or Mac command prompt. <mcr_directory> is the directory 
     where version 9.2 of the MATLAB Runtime is installed or the directory where 
@@ -47,21 +47,21 @@ Files to package for Standalone
     If you have version 9.2 of the MATLAB Runtime installed in 
     /mathworks/home/application/v92, run the shell script as:
     
-       ./run_ROTAT_V1.sh /mathworks/home/application/v92
+       ./run_FROG_V1.sh /mathworks/home/application/v92
        
     If you have MATLAB installed in /mathworks/devel/application/matlab, 
     run the shell script as:
     
-       ./run_ROTAT_V1.sh /mathworks/devel/application/matlab
+       ./run_FROG_V1.sh /mathworks/devel/application/matlab
 -MCRInstaller.zip 
    -if end users are unable to download the MATLAB Runtime using the above  
     link, include it when building your component by clicking 
     the "Runtime downloaded from web" link in the Deployment Tool
--The Macintosh bundle directory structure ROTAT_V1.app 
+-The Macintosh bundle directory structure FROG_V1.app 
    -this can be gathered up using the zip command 
-    zip -r ROTAT_V1.zip ROTAT_V1.app
+    zip -r FROG_V1.zip FROG_V1.app
     or the tar command 
-    tar -cvf ROTAT_V1.tar ROTAT_V1.app
+    tar -cvf FROG_V1.tar FROG_V1.app
 -This readme file 
 
 3. Definitions
@@ -104,7 +104,7 @@ If it is defined, set it to the concatenation of these strings:
         NOTE: The environment variable syntax utilizes forward 
               slashes (/), delimited by colons (:).  
         NOTE: When deploying standalone applications, it is possible 
-              to run the shell script file run_ROTAT_V1.sh 
+              to run the shell script file run_FROG_V1.sh 
               instead of setting environment variables. See 
               section 2 "Files to Deploy and Package".    
 

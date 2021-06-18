@@ -26,7 +26,7 @@ else
       args="${args} \"${token}\"" 
       shift
   done
-  eval "\"${exe_dir}/ROTAT_V1.app/Contents/MacOS/ROTAT_V1\"" $args
+  eval "\"${exe_dir}/FROG_V1.app/Contents/MacOS/FROG_V1\"" $args
 fi
 exit
 
